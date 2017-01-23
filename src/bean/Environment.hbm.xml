@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="bean">
+    <class name="Environment">
+        <id name="id" type="integer">
+            <generator class="native"/>
+        </id>
+
+        <property name="wendu"/>
+        <property name="shidu"/>
+        <property name="nongdu" />
+        <property name="wairen" />
+        <property name="minghuo" />
+        <property name="date" type="java.util.Date"/>
+
+    </class>
+
+</hibernate-mapping>
